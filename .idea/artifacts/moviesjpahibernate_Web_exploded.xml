@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="moviesjpahibernate:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/moviesjpahibernate_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="moviesjpahibernate/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="javaee-facet-classes" facet="moviesjpahibernate/web/Web" />
+          <element id="module-output" name="moviesjpahibernate" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="moviesjpahibernate/web/Web2" />
+    </root>
+  </artifact>
+</component>

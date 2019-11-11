@@ -1,0 +1,17 @@
+com\company\base\accenture\movies\ObjModelClass\Movie.class
+com\company\base\accenture\movies\Interfaces\MovieAccessService.class
+com\company\base\accenture\movies\MoviesApplication.class
+com\company\base\accenture\movies\ObjModelClass\Review.class
+com\company\base\accenture\movies\BL\MovieServiceImpl.class
+com\company\base\accenture\movies\DAL\MovieAccessServiceImpl.class
+com\company\base\accenture\movies\Interfaces\UserAccessService.class
+com\company\base\accenture\movies\ObjModelClass\User.class
+com\company\base\accenture\movies\DAL\UserAccessServiceImpl.class
+com\company\base\accenture\movies\BL\UserServiceImpl.class
+com\company\base\accenture\movies\Interfaces\ReviewRepository.class
+com\company\base\accenture\movies\Interfaces\IContainMovies.class
+com\company\base\accenture\movies\Interfaces\IContainUsers.class
+com\company\base\accenture\movies\Jersey\IndexController.class
+Factories\HibernateSessionFactoryUtil.class
+com\company\base\accenture\movies\Jersey\JerseyConfig.class
+com\company\base\accenture\movies\Servlets\ServletConfiguration.class
