@@ -3,9 +3,8 @@ package com.company.base.accenture.movies.DAL;
 import com.company.base.accenture.movies.BL.UserServiceImpl;
 import Factories.HibernateSessionFactoryUtil;
 import com.company.base.accenture.movies.Interfaces.UserAccessService;
-import com.company.base.accenture.movies.ObjModelClass.User;
+import com.company.base.accenture.movies.objModelClass.User;
 import org.hibernate.Session;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.persistence.*;
@@ -19,9 +18,6 @@ import static com.company.base.accenture.movies.BL.UserServiceImpl.activeUser;
 
 @Component
 public class UserAccessServiceImpl implements UserAccessService {
-
-    @Autowired
-    private EntityManagerFactory emf;
 
     @PersistenceContext
     private EntityManager em;

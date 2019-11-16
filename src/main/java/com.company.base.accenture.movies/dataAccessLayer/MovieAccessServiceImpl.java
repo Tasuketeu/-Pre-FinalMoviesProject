@@ -2,7 +2,7 @@ package com.company.base.accenture.movies.DAL;
 
 import Factories.HibernateSessionFactoryUtil;
 import com.company.base.accenture.movies.Interfaces.MovieAccessService;
-import com.company.base.accenture.movies.ObjModelClass.Movie;
+import com.company.base.accenture.movies.objModelClass.Movie;
 import org.hibernate.Session;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

@@ -1,11 +1,11 @@
-package com.company.base.accenture.movies.Servlets;
 
-import javax.servlet.*;
-import javax.servlet.annotation.WebFilter;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-import java.io.IOException;
-
+//
+//import javax.servlet.*;
+//import javax.servlet.annotation.WebFilter;
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpSession;
+//import java.io.IOException;
+//
 //@WebFilter(urlPatterns = "/secured/*")
 //public class SecurityServletFilter implements Filter {
 //
